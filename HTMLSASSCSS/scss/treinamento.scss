@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    nav{
+        div.navbrand{
+            border-bottom: darken(lightgray, 20%) 2px solid;        
+            background-color: #d3d7da;
+            padding: 5px;
+            img{
+                width: 300px;
+                height: 90px;
+            }
+        }
+    }   
+}
+
+li{
+    display: inline;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+    line-height: 40px;
+}
+
+ul{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: #666;
+        transition: all ease-in-out 300ms;
+        &:hover{
+            color: lighten(#666, 30%);
+        }
+    }
+    border-bottom: darken(lightgray, 20%) 2px solid;        
+    background: #d3d7da;
+
+}
+
+section
+{
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}

@@ -1,0 +1,8 @@
+@function border-radius($espaco: 0px){
+    @return $espaco + 3px;
+}
+
+@mixin border ($largura: 1px) {
+    border-top: $largura solid rgb(219, 91, 91);
+    border-bottom: $largura solid rgb(180, 180, 76); 
+}

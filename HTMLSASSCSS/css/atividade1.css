@@ -1,0 +1,96 @@
+html, body {
+  font-family: Arial; }
+
+#conteudo {
+  border: #aecacf 1px solid;
+  border-radius: 0.4em;
+  background-color: #eef4f5;
+  width: 500px;
+  height: 470px;
+  position: relative;
+  left: 33%;
+  margin-top: 30px; }
+
+#divForm {
+  margin: 25px 20px 20px 20px; }
+
+#titulo {
+  text-align: center;
+  margin-bottom: 15px; }
+  #titulo span {
+    font-size: 47px;
+    color: #066a75;
+    font-weight: bold; }
+
+#FormCad {
+  font-size: 12px; }
+
+#divCampos {
+  margin-top: 25px; }
+
+.botaoForm {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #066a75;
+  border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -webkit-border-radius: 0.2em;
+  box-shadow: #043e44 0.1em 0.1em 0.1em 0.1em;
+  -moz-box-shadow: #043e44 0.1em 0.1em 0.1em 0.1em;
+  -webkit-box-shadow: #043e44 0.1em 0.1em 0.1em 0.1em;
+  background-color: #0896a6;
+  color: white;
+  font-weight: bold;
+  font-size: 18px; }
+
+label {
+  font-size: 15px;
+  color: #4d4d4d;
+  margin-bottom: 5px; }
+
+.labels {
+  margin-bottom: 10px; }
+  .labels input {
+    margin-top: 3px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid lightgray;
+    border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    box-shadow: #aecacf 0.1em 0.1em 0.1em 0.1em;
+    -moz-box-shadow: #aecacf 0.1em 0.1em 0.1em 0.1em;
+    -webkit-box-shadow: #aecacf 0.1em 0.1em 0.1em 0.1em;
+    font-style: italic; }
+
+hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #066a75, transparent); }
+
+#rodapeForm {
+  background-color: #cde6e9;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 65px; }
+  #rodapeForm #divLogin {
+    margin: 10px 5px 0px 0px;
+    vertical-align: center;
+    position: absolute;
+    right: 20px; }
+    #rodapeForm #divLogin label {
+      margin-right: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      color: gray; }
+    #rodapeForm #divLogin input {
+      height: 30px;
+      width: 110px;
+      font-size: 14px;
+      font-weight: 700;
+      color: #066a75;
+      background-color: white;
+      border: solid 1px rgba(224, 224, 7, 0.897);
+      border-radius: 0.4em; }

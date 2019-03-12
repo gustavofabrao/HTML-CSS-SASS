@@ -1,0 +1,113 @@
+$corPadrao:  #066a75;
+$fontePadrao: Arial;
+
+html, body {font-family: $fontePadrao;}
+
+#conteudo{
+    border: darken(#eef4f5, 20%) 1px solid; 
+    border-radius: 0.4em; 
+    background-color: #eef4f5;
+    width:500px;
+    height: 470px;     
+    position:relative;
+    left:33%;
+    margin-top:30px;
+}
+
+#divForm{
+    margin: 25px 20px 20px 20px;
+}
+
+#titulo{
+    text-align: center;
+    margin-bottom: 15px;
+    span{ 
+        font-size: 47px;  
+        color: $corPadrao;
+        font-weight: bold;  
+      }
+}
+
+#FormCad{                
+    font-size: 12px;
+}
+
+#divCampos{  
+    margin-top: 25px;          
+}
+
+.botaoForm{    
+    width: 100%;  
+    height: 40px;  
+    border:1px solid $corPadrao;
+    border-radius: 0.2em; 
+    -moz-border-radius:0.2em;
+    -webkit-border-radius:0.2em;  
+    box-shadow: darken($corPadrao, 10%) 0.1em 0.1em 0.1em 0.1em;
+    -moz-box-shadow: darken($corPadrao, 10%) 0.1em 0.1em 0.1em 0.1em;
+    -webkit-box-shadow: darken($corPadrao, 10%) 0.1em 0.1em 0.1em 0.1em;  
+    background-color: lighten($corPadrao,10%);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+label{    
+    font-size: 15px;
+    color: darken(gray,20%);
+    margin-bottom: 5px;    
+}
+
+.labels{
+    margin-bottom: 10px;
+    input{
+        margin-top: 3px;
+        width: 100%;  
+        height: 35px;  
+        border:1px solid lightgray;
+        border-radius: 0.3em; 
+        -moz-border-radius:0.3em;
+        -webkit-border-radius:0.3em;  
+        box-shadow: darken(#eef4f5, 20%) 0.1em 0.1em 0.1em 0.1em;
+        -moz-box-shadow: darken(#eef4f5, 20%) 0.1em 0.1em 0.1em 0.1em;
+        -webkit-box-shadow: darken(#eef4f5, 20%) 0.1em 0.1em 0.1em 0.1em;
+        font-style: italic;                        
+    } 
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent,#066a75, transparent);
+}
+
+#rodapeForm{    
+    background-color: #cde6e9;
+    margin-top: 20px; 
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 65px;
+    #divLogin{        
+        margin: 10px 5px 0px 0px;            
+        vertical-align: center;
+        position:absolute;
+        right:20px;
+        label{
+            margin-right: 10px;
+            font-size: 15px;
+            font-weight: 600;
+            color: gray;
+        }
+        input{
+            height: 30px;
+            width: 110px;
+            font-size: 14px;
+            font-weight: 700;
+            color: $corPadrao;
+            background-color: white;
+            border: solid 1px rgba(224, 224, 7, 0.897);
+            border-radius: 0.4em;             
+        }
+    }
+}

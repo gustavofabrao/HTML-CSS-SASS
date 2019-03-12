@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Atividade 1 - HTML-CSS-SASS</title>
+    <link rel="stylesheet" href="css/atividade1.css">
+</head>
+<body>
+    <div id="conteudo">
+
+        <div id="divForm">
+            <div id="titulo"><span>Cadastro</span></div>
+            <hr> 
+            <div id="divCampos">
+                <form action="cadastro.apsx" name="FormCad"  id="FormCad" method="POST" enctype="multipart/form-data">
+                    <div class="labels">
+                        <label>Seu nome</label> 
+                        <input type="text" name="Nome" id="Nome" maxlength="50" placeholder="Luiz Augusto">
+                    </div>
+                    <div class="labels">
+                        <label>Seu e-mail </label>
+                        <input type="email" name="Email"  id="Email" maxlength="100" placeholder="contato@htmlcsspro.com">
+                    </div>
+                    <div class="labels">
+                        <label>Sua senha </label>
+                        <input type="password" name="Senha"  id="Senha" placeholder="1234">
+                    </div>
+
+                    <input type="submit" name="Cadastrar" value="Cadastrar" class="botaoForm" style="margin-top: 10px;" >                                
+                </form> 
+            </div>
+        </div>
+        <div id="rodapeForm">
+            <div id="divLogin">
+                <label>Já tem conta? </label>
+                <input type="button" name="Botão" value="Ir para Login" class="botaoForm" style="margin-top: 10px;" 
+                onclick="confirm('confirma?');">
+            </div>            
+        </div>
+    </div>
+</body>
+</html>

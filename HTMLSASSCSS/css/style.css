@@ -1,0 +1,69 @@
+.alturaPadrao, div {
+  height: 100px; }
+
+div {
+  background-color: #b8b1b1;
+  font-family: "Arial, Lato";
+  padding: 10px 20px;
+  border-top: 1px solid #db5b5b;
+  border-bottom: 1px solid #b4b44c; }
+
+footer {
+  background-color: #b8b1b1; }
+
+div.container p {
+  background: green; }
+  div.container p.p1 {
+    background: red; }
+  div.container p.p2 {
+    background: yellow; }
+
+span {
+  border-top: 1px;
+  border-radius: 6px; }
+
+.item1 {
+  width: 5px;
+  height: 10px; }
+
+.item2 {
+  width: 5px;
+  height: 10px; }
+
+.item3 {
+  width: 5px;
+  height: 10px; }
+
+.item4 {
+  width: 5px;
+  height: 10px; }
+
+.while5 {
+  width: 50px; }
+
+.while4 {
+  width: 40px; }
+
+.while3 {
+  width: 30px; }
+
+.while2 {
+  width: 20px; }
+
+.while1 {
+  width: 10px; }
+
+.foto-fulano {
+  background: url("avatar/fulano.jpg"); }
+
+.foto-ciclano {
+  background: url("avatar/ciclano.jpg"); }
+
+.foto-beltrano {
+  background: url("avatar/beltrano.jpg"); }
+
+.success {
+  background: green; }
+
+.primary {
+  background: red; }

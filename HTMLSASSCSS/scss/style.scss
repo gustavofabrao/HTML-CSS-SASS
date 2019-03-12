@@ -1,0 +1,83 @@
+$corPadrao: rgb(184, 177, 177);
+$fontePadrao: Arial;
+$paddingPadrao: 10px 20px;
+@import "_functionsmixins";
+
+.alturaPadrao{
+    height: 100px;
+}
+
+div{
+    background-color: $corPadrao;
+    font-family: "#{$fontePadrao}, Lato";
+    padding: $paddingPadrao;
+    @include border();
+    @extend .alturaPadrao;
+}
+
+footer{
+    background-color: $corPadrao;
+}
+
+div.container{
+    p{
+        background: green;
+        &.p1{
+            background: red;        
+        }
+        &.p2{
+            background: yellow;
+        }
+    }    
+}
+
+span{
+    border-top: 1px;
+    border-radius: border-radius(3px);
+}
+
+@for $i from 1 to 5 { 
+    .item#{$i}{
+        @if $i ==  or $i == 3{
+            width: 5px;
+            height: 10px;
+        }
+        @else{
+            width: 7px;
+            height: 10px;
+        }
+    }
+}
+
+$reps: 5;
+@while $reps > 0 {
+    .while#{$reps}{
+        width: 10px * $reps;
+    }
+    $reps: $reps - 1;
+}
+
+$list: fulano ciclano beltrano;
+
+@each $pessoa in $list {
+    .foto-#{$pessoa}{
+        background: url('avatar/#{$pessoa}.jpg');
+    }
+}
+
+// bootstrap
+$listaCores: (
+    "primary": red,
+    "secondary": yellow,
+    "muted": gray,
+    "success": green
+);
+
+.success{
+    background: map-get($listaCores , "success");
+}
+
+.primary{
+    background: map-get($listaCores , "primary");
+}
+//
